@@ -1,5 +1,9 @@
 package com.calc.model;
-
+/**
+ * Clase Decimal que hereda de la clase Numero,
+ * dispone de atributos de balor minimo y máximo, además del set valor para determinar si se trata
+ * de un numero decimal, binario o no permitido, si nos equivocamos nos lanzará exceptions.
+ */
 import java.util.Objects;
 
 public class Decimal extends Numero{
@@ -29,6 +33,8 @@ public class Decimal extends Numero{
 	
 	@Override
 	protected void setValorEntero(int valorEntero) {
+		
+		
 		
 		String aCadena = String.valueOf(valorEntero);
 		for (int i=0; i<aCadena.length(); i++ ) {
