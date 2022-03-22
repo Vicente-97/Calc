@@ -1,5 +1,7 @@
 package com.calc.app;
-
+/**
+ * Clase main donde comprobamos resultados por consola.
+ */
 import static com.calc.utils.CollectionUtils.deleteNulls;
 import static com.calc.utils.CollectionUtils.printCol;
 
