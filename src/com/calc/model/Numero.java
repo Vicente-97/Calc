@@ -50,9 +50,9 @@ public abstract class Numero {
 
 	@Override
 	public String toString() {
-		return "Numero de tipo "+ getClass().getSimpleName()
-				+ " con valorEntero=" + valorEntero 
-				+ ", base=" + base;
+		return "Numero de tipo  "+ getClass().getSimpleName()
+				+ " con un valorEntero=" + valorEntero 
+				+ ", base =" + base;
 	}
 	
 	
