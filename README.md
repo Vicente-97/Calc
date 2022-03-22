@@ -2,7 +2,7 @@
 
 ## Proyecto Calc, estructurado con Java.
 
-*Este proyecto comprende de una maquinaria sencilla, dispone de varias clases como son Decimal, Numero, Binario, etc y un package donde están ubicadas las clases aritmetica, donde se realizan operaciones con las distintas subclases. *
+*Este proyecto comprende de una maquinaria sencilla, dispone de varias clases como son Decimal, Numero, Binario, etc y un package donde están ubicadas las clases aritmetica, donde se realizan operaciones con las distintas subclases*
 
 *Tambien dispone de una clase main donde se verifican los resultados de las distintas operaciones*
 
