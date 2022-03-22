@@ -30,12 +30,14 @@ public class Decimal extends Numero{
 		super(value);
 		setValorDecimal(valorDecimal);
 	}
-	
+	/**
+	 * set valor para determinar si se trata
+ 		de un numero decimal, binario o no permitido, si nos equivocamos nos lanzará
+ 		exceptions.
+	 */
 	@Override
 	protected void setValorEntero(int valorEntero) {
-		
-		
-		
+	
 		String aCadena = String.valueOf(valorEntero);
 		for (int i=0; i<aCadena.length(); i++ ) {
 			if(Character.isLetter(i)) {
